@@ -12,22 +12,22 @@ public class Principal {
         System.out.println("Complexo c3: " +c3);
         System.out.println("Complexo c4: " +c4);
 
-        c1.somaComplex(c4,c3);
+        c1.soma(c4);
         System.out.println("Complexo c1: "+c1);
 
-        c2.somaComplex(c1,c3);
+        c2.soma(c1);
         System.out.println("Complexo c2: "+c2);
 
-        c3.somaComplex(c2,c4);
+        c3.soma(c2);
         System.out.println("Complexo c3: "+c3);
 
-        c1.subtraiComplex(c2,c4);
+        c1.subtrai(c2);
         System.out.println("Complexo c1: "+c1);
 
-        c3.subtraiComplex(c1,c3);
+        c3.subtrai(c1);
         System.out.println("Complexo c3: "+c3);
 
-        c4.subtraiComplex(c4,c2);
+        c4.subtrai(c3);
         System.out.println("Complexo c4: "+c4);
 
     }

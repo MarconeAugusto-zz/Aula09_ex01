@@ -16,14 +16,14 @@ public class Complexo {
         return  "(" +real+ "," +imaginario+ ")";
     }
 
-    public void somaComplex(Complexo x,Complexo y) {
-        real = x.real + y.real;
-        imaginario = x.imaginario + y.imaginario;
+    public void soma(Complexo x) {
+        real = x.real + real;
+        imaginario = x.imaginario + imaginario;
     }
 
-    public void subtraiComplex(Complexo x,Complexo y){
-        real = x.real - y.real;
-        imaginario = x.imaginario - y.imaginario;
+    public void subtrai(Complexo x){
+        real = x.real - real;
+        imaginario = x.imaginario - imaginario;
 
     }
 }
